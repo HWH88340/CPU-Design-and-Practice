@@ -1,0 +1,327 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Jan  8 23:43:04 2022
+# Process ID: 18028
+# Current directory: C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2900 C:\Users\33381\CPU-Design-and-Practice\lab\lab3_1\CPU_CDE\mycpu_verify\run_vivado\mycpu_prj1\mycpu_prj1.xpr
+# Log file: C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/vivado.log
+# Journal file: C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1\vivado.jou
+# Running On: LAPTOP-NDLNQHR8, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 4, Host memory: 16913 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'E:/ucas19_20_all/release/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1' since last save.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.ip_user_files', nor could it be found using path 'E:/ucas19_20_all/release/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'clk_pll' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_pll' (customized with software release 2019.2) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'data_ram' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'data_ram' (customized with software release 2019.2) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'inst_ram' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'inst_ram' (customized with software release 2019.2) has a different revision in the IP Catalog.
+INFO: [Project 1-230] Project 'mycpu_prj1.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 1251.113 ; gain = 0.000
+upgrade_project -migrate_output_products
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+upgrade_ip [get_ips  {clk_pll data_ram inst_ram}] -log ip_upgrade.log
+Upgrading 'clk_pll'
+INFO: [IP_Flow 19-3422] Upgraded clk_pll (Clocking Wizard 6.0) from revision 4 to revision 9
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_pll'...
+Upgrading 'data_ram'
+INFO: [IP_Flow 19-3422] Upgraded data_ram (Block Memory Generator 8.4) from revision 4 to revision 5
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'data_ram'...
+Upgrading 'inst_ram'
+INFO: [IP_Flow 19-3422] Upgraded inst_ram (Block Memory Generator 8.4) from revision 4 to revision 5
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'inst_ram'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1288.277 ; gain = 37.164
+export_ip_user_files -of_objects [get_ips {clk_pll data_ram inst_ram}] -no_script -sync -force -quiet
+generate_target all [get_files  {C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/clk_pll/clk_pll.xci C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/data_ram/data_ram.xci C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/inst_ram/inst_ram.xci}]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_pll'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_pll'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_pll'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_pll'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'inst_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'inst_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'inst_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'inst_ram'...
+generate_target: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1296.566 ; gain = 8.289
+catch { config_ip_cache -export [get_ips -all clk_pll] }
+catch { config_ip_cache -export [get_ips -all data_ram] }
+catch { config_ip_cache -export [get_ips -all inst_ram] }
+export_ip_user_files -of_objects [get_files C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/clk_pll/clk_pll.xci] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/data_ram/data_ram.xci] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/inst_ram/inst_ram.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/clk_pll/clk_pll.xci]
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/data_ram/data_ram.xci]
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/inst_ram/inst_ram.xci]
+launch_runs clk_pll_synth_1 data_ram_synth_1 inst_ram_synth_1 -jobs 4
+[Sat Jan  8 23:44:13 2022] Launched clk_pll_synth_1, data_ram_synth_1, inst_ram_synth_1...
+Run output will be captured here:
+clk_pll_synth_1: C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.runs/clk_pll_synth_1/runme.log
+data_ram_synth_1: C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.runs/data_ram_synth_1/runme.log
+inst_ram_synth_1: C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.runs/inst_ram_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/clk_pll/clk_pll.xci] -directory C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.ip_user_files -ipstatic_source_dir C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.cache/compile_simlib/modelsim} {questa=C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.cache/compile_simlib/questa} {riviera=C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.cache/compile_simlib/riviera} {activehdl=C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.cache/compile_simlib/activehdl}] -force -quiet
+export_simulation -of_objects [get_files C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/data_ram/data_ram.xci] -directory C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.ip_user_files -ipstatic_source_dir C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.cache/compile_simlib/modelsim} {questa=C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.cache/compile_simlib/questa} {riviera=C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.cache/compile_simlib/riviera} {activehdl=C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.cache/compile_simlib/activehdl}] -force -quiet
+export_simulation -of_objects [get_files C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/inst_ram/inst_ram.xci] -directory C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.ip_user_files -ipstatic_source_dir C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.cache/compile_simlib/modelsim} {questa=C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.cache/compile_simlib/questa} {riviera=C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.cache/compile_simlib/riviera} {activehdl=C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.cache/compile_simlib/activehdl}] -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Xilinx/Vivado/2021.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" into library xpm
+INFO: [VRFC 10-311] analyzing module xpm_cdc_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_gray
+INFO: [VRFC 10-311] analyzing module xpm_cdc_handshake
+INFO: [VRFC 10-311] analyzing module xpm_cdc_pulse
+INFO: [VRFC 10-311] analyzing module xpm_cdc_array_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_sync_rst
+INFO: [VRFC 10-311] analyzing module xpm_cdc_async_rst
+INFO: [VRFC 10-311] analyzing module xpm_cdc_low_latency_handshake
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Xilinx/Vivado/2021.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" into library xpm
+INFO: [VRFC 10-311] analyzing module xpm_memory_base
+INFO: [VRFC 10-311] analyzing module asym_bwe_bb
+INFO: [VRFC 10-311] analyzing module xpm_memory_dpdistram
+INFO: [VRFC 10-311] analyzing module xpm_memory_dprom
+INFO: [VRFC 10-311] analyzing module xpm_memory_sdpram
+INFO: [VRFC 10-311] analyzing module xpm_memory_spram
+INFO: [VRFC 10-311] analyzing module xpm_memory_sprom
+INFO: [VRFC 10-311] analyzing module xpm_memory_tdpram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v" into library blk_mem_gen_v8_4_5
+INFO: [VRFC 10-311] analyzing module STATE_LOGIC_v8_4
+INFO: [VRFC 10-311] analyzing module beh_vlog_muxf7_v8_4
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_clr_v8_4
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_pre_v8_4
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_ce_clr_v8_4
+INFO: [VRFC 10-311] analyzing module write_netlist_v8_4
+INFO: [VRFC 10-311] analyzing module read_netlist_v8_4
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_write_wrapper_beh_v8_4
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_read_wrapper_beh_v8_4
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_regs_fwd_v8_4
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_4_5_output_stage
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_4_5_softecc_output_reg_stage
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_4_5_mem_module
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_4_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/xilinx_ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/myCPU/EXE_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exe_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/myCPU/ID_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/myCPU/IF_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/myCPU/MEM_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/myCPU/WB_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/myCPU/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/BRIDGE/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2458] undeclared symbol conf_we, assumed default net type wire [C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/CONFREG/confreg.v:160]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/myCPU/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/myCPU/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/soc_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_lite_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/rtl/myCPU/tools.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_5_32
+INFO: [VRFC 10-311] analyzing module decoder_6_64
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/testbench/mycpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Vivado/2021.2/data/ip/xpm/xpm_VCOMP.vhd" into library xpm
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L blk_mem_gen_v8_4_5 -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L blk_mem_gen_v8_4_5 -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.if_stage
+Compiling module xil_defaultlib.decoder_6_64
+Compiling module xil_defaultlib.decoder_5_32
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.id_stage
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.exe_stage
+Compiling module xil_defaultlib.mem_stage
+Compiling module xil_defaultlib.wb_stage
+Compiling module xil_defaultlib.mycpu_top
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module xil_defaultlib.bridge_1x2
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.confreg(SIMULATION=1'b1)
+Compiling module xil_defaultlib.soc_lite_top(SIMULATION=1'b1)
+Compiling module xil_defaultlib.tb_top
+WARNING: [XSIM 43-3373] "C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/testbench/mycpu_tb.v" Line 124. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1341.367 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.inst_ram.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_top.soc_lite.data_ram.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+xsim: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1440.301 ; gain = 98.934
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1440.301 ; gain = 98.934
+run 10 us
+==============================================================
+Test begin!
+run 10 us
+run 10 us
+        [  22000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [  32000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [  42000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [  52000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [  62000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [  72000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [  82000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [  92000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [ 102000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [ 112000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [ 122000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [ 132000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [ 142000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [ 152000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [ 162000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [ 172000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+run 10 us
+        [ 182000 ns] Test is running, debug_wb_pc = 0xxxxxxxxx
+reset_run inst_ram_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/33381/CPU-Design-and-Practice/lab/lab3_1/CPU_CDE/mycpu_verify/run_vivado/mycpu_prj1/mycpu_prj1.runs/inst_ram_synth_1
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jan  8 23:47:58 2022...

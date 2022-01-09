@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab2_2.gen/sources_1/ip/distributed_ram/sim/distributed_ram.v" \
+"../../../../lab2_2.srcs/sources_1/imports/ram_task/distributed_ram_top.v" \
+"../../../../lab2_2.srcs/sim_1/imports/ram_task/ram_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

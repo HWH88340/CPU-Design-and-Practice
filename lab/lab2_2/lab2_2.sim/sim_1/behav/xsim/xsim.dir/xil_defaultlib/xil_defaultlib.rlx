@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/33381/CPU-Design-and-Practice/lab/lab2_2/lab2_2.gen/sources_1/ip/block_ram/sim/block_ram.v,1641645382,verilog,,C:/Users/33381/CPU-Design-and-Practice/lab/lab2_2/lab2_2.srcs/sources_1/imports/ram_task/block_ram_top.v,,block_ram,,,,,,,,
+C:/Users/33381/CPU-Design-and-Practice/lab/lab2_2/lab2_2.gen/sources_1/ip/distributed_ram/sim/distributed_ram.v,1641645583,verilog,,C:/Users/33381/CPU-Design-and-Practice/lab/lab2_2/lab2_2.srcs/sources_1/imports/ram_task/distributed_ram_top.v,,distributed_ram,,,,,,,,
+C:/Users/33381/CPU-Design-and-Practice/lab/lab2_2/lab2_2.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/33381/CPU-Design-and-Practice/lab/lab2_2/lab2_2.srcs/sim_1/imports/ram_task/ram_tb.v,1641645785,verilog,,,,tb_top,,,,,,,,
+C:/Users/33381/CPU-Design-and-Practice/lab/lab2_2/lab2_2.srcs/sources_1/imports/ram_task/distributed_ram_top.v,1567478108,verilog,,C:/Users/33381/CPU-Design-and-Practice/lab/lab2_2/lab2_2.srcs/sim_1/imports/ram_task/ram_tb.v,,ram_top,,,,,,,,
