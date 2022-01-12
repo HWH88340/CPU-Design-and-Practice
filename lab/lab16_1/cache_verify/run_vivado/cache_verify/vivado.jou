@@ -11,3 +11,16 @@
 # Running On: LAPTOP-NDLNQHR8, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 4, Host memory: 16913 MB
 #-----------------------------------------------------------
 start_gui
+open_project C:/Users/33381/CPU-Design-and-Practice/lab/lab16_1/cache_verify/run_vivado/cache_verify/cache_verify.xpr
+upgrade_project -migrate_output_products
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+upgrade_ip -vlnv xilinx.com:ip:clk_wiz:6.0 [get_ips  clk_pll] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips clk_pll] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/33381/CPU-Design-and-Practice/lab/lab16_1/cache_verify/rtl/xilinx_ip/clk_pll.xci]
+catch { config_ip_cache -export [get_ips -all clk_pll] }
+export_ip_user_files -of_objects [get_files C:/Users/33381/CPU-Design-and-Practice/lab/lab16_1/cache_verify/rtl/xilinx_ip/clk_pll.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/33381/CPU-Design-and-Practice/lab/lab16_1/cache_verify/rtl/xilinx_ip/clk_pll.xci]
+launch_runs clk_pll_synth_1 -jobs 4
+wait_on_run clk_pll_synth_1
+export_simulation -of_objects [get_files C:/Users/33381/CPU-Design-and-Practice/lab/lab16_1/cache_verify/rtl/xilinx_ip/clk_pll.xci] -directory C:/Users/33381/CPU-Design-and-Practice/lab/lab16_1/cache_verify/run_vivado/cache_verify/cache_verify.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/33381/CPU-Design-and-Practice/lab/lab16_1/cache_verify/run_vivado/cache_verify/cache_verify.ip_user_files -ipstatic_source_dir C:/Users/33381/CPU-Design-and-Practice/lab/lab16_1/cache_verify/run_vivado/cache_verify/cache_verify.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/33381/CPU-Design-and-Practice/lab/lab16_1/cache_verify/run_vivado/cache_verify/cache_verify.cache/compile_simlib/modelsim} {questa=C:/Users/33381/CPU-Design-and-Practice/lab/lab16_1/cache_verify/run_vivado/cache_verify/cache_verify.cache/compile_simlib/questa} {riviera=C:/Users/33381/CPU-Design-and-Practice/lab/lab16_1/cache_verify/run_vivado/cache_verify/cache_verify.cache/compile_simlib/riviera} {activehdl=C:/Users/33381/CPU-Design-and-Practice/lab/lab16_1/cache_verify/run_vivado/cache_verify/cache_verify.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
